@@ -10,7 +10,7 @@ const signUpForm = async function(event) {
             username: usernameEl.value, 
             password: passwordEl.value,  
         }),
-        headers: { 'Content-Type': 'application/json' };
+        headers: { 'Content-Type': 'application/json' }
     });
 
     if (response.ok) {
