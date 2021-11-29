@@ -1,8 +1,6 @@
 const router = require('express').Router();
 const { Post, Comment } = require('../../models');
 
-module.exports = router;
-
 
 router.post('/new-post', async (req, res) => {
     try {
