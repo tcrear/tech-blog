@@ -1,2 +1,19 @@
-<h1>This is the homepage</h1>
-<h2>hello</h2>
+<div class="card">
+   {{#each postData as |post|}}
+
+  <h2 class="card-header">{{post.title}}</h2>
+  <div class="card-body">
+    <h5 class="card-title">{{post.user_id}}</h5>
+    <p class="card-text">{{post.content}}</p>
+    <a href="#" class="btn btn-primary">comment</a>
+       {{#each post.postComments as |comment|}}
+   
+  <div class="card-body">
+    <h5 class="card-title">{{comment.user_id}}</h5>
+    <p class="card-text">{{comment.content}}</p>
+  </div>
+    {{/each}}
+  </div>
+    {{/each}}
+    
+</div>
