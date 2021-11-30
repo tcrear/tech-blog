@@ -31,4 +31,4 @@ const deleteClickHandler = async function() {
 document.querySelector('#edit-post-form')
 document.addEventListener('submit', editForm);
 document.querySelector('#delete-btn')
-document.addEventListener('click', deleteClick);
+document.addEventListener('click', deleteClickHandler);
