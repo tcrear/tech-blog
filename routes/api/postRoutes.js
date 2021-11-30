@@ -7,7 +7,7 @@ router.post('/new-post', async (req, res) => {
         const postData = await Post.create({
             title: req.body.title,
             content: req.body.content,
-            user_id: req.body.user_id,
+            userId: req.body.userId,
 
 
         });
@@ -32,7 +32,7 @@ router.post('/new-comment', async (req, res) => {
     try {
         const commentData = await Comment.create({
             content: req.body.content,
-            user_id: req.body.user_id,
+            userId: req.body.userId,
             blog_id: req.body.blog_id
 
         });
