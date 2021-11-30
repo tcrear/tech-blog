@@ -6,7 +6,7 @@ The motivation of the project was to build a CMS-style blog site similar to a Wo
 
 ## Screenshot of Deployed Site
 
-![image]( )
+![image](https://github.com/tcrear/tech-blog/blob/main/assets/Capture-14.JPG)
 
 
 ## Link to Deployed Site
